@@ -1,3 +1,5 @@
+// Substring string value
+
 const stringfloat1 = '0.7047538429';
 const stringfloat2 = '10.3241374618190';
 const stringfloat3 = stringfloat1.substring(1, 2);
