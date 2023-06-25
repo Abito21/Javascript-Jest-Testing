@@ -1,0 +1,17 @@
+{
+  "name": "jest-testing-basic",
+  "version": "1.0.0",
+  "description": "This my playground to explore more about jest testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Abito21",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
