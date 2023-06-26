@@ -1,3 +1,5 @@
+// Function count null
+
 const tablea = [
     { A: 45, B: 'NULL', C: 12, D: 83 },
     { A: 'NULL', B: 32, C: 67, D: 76 },

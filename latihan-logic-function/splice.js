@@ -1,3 +1,4 @@
+// Function splice (to find) value
 const cars = [
     {
       "color": "purple",
