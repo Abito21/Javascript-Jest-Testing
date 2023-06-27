@@ -1,6 +1,6 @@
 import mul from './multiplication';
 import sub from './substraction';
-import add from './sum';
+import add from './addition';
 
 describe('Testing fungsi matematis', function() {
     test('add two numbers', function(){
