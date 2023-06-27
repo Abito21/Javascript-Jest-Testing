@@ -1,3 +1,4 @@
+import mul from './multiplication';
 import sub from './substraction';
 import add from './sum';
 
@@ -7,5 +8,8 @@ describe('Testing fungsi matematis', function() {
     });
     test('substraction two numbers', function(){
         expect(sub(2, 1)).toBe(1);
+    });
+    test('multiplication two numbers', function(){
+        expect(mul(2, 1)).toBe(2);
     });
 });
