@@ -4,7 +4,7 @@
   "description": "This my playground to explore more about jest testing.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest ./jest-testing-basic/tests/operation.test.js"
   },
   "keywords": [
     "test"
