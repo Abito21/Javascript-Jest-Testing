@@ -1,7 +1,11 @@
 import add from '../src/addition';
+import { addition } from '../src/additionPembanding';
 import div from '../src/division';
+import { division } from '../src/divisionPembanding';
 import mul from '../src/multiplication';
+import { multiplication } from '../src/multiplicationPembanding';
 import sub from '../src/substraction';
+import { substraction } from '../src/substractionPembanding';
 
 // Declare Variable
 let resultAddition;
@@ -19,25 +23,25 @@ describe('Testing Mathemathic Function', () => {
         resultAddition = add(2, 1);
         
         // Funtion Addition Pembanding
-        resultAdditionPembanding = add(2, 1);
+        resultAdditionPembanding = addition(2, 1);
         
         // Funtion Division
         resultDivision= div(2, 1);
 
         // Funtion Division Pembanding
-        resultDivisionPembanding = div(2, 1);
+        resultDivisionPembanding = division(2, 1);
         
         // Funtion Multiplication
         resultMultiplication = mul(2, 1)
         
         // Funtion Multiplication Pembanding
-        resultMultiplicationPembanding = mul(2, 1);
+        resultMultiplicationPembanding = multiplication(2, 1);
 
         // Funtion Substraction
         resultSubstraction = sub(2, 1);
 
         // Funtion Substraction Pembanding
-        resultSubstractionPembanding = sub(2, 1);
+        resultSubstractionPembanding = substraction(2, 1);
     });
     test('Testing function add two numbers', async () => {
         expect(resultAddition).toBe(resultAdditionPembanding);
