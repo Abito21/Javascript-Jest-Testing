@@ -1,3 +1,4 @@
-export default function sub(a, b){
-    return a - b;
-}
+export const substraction = (nilai1, nilai2) => {
+    const result = nilai1 - nilai2;
+    return result;
+};
