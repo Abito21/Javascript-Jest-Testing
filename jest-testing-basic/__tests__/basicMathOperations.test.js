@@ -1,11 +1,11 @@
-import add from '../src/addition';
-import { addition } from '../src/additionPembanding';
-import div from '../src/division';
-import { division } from '../src/divisionPembanding';
-import mul from '../src/multiplication';
-import { multiplication } from '../src/multiplicationPembanding';
-import sub from '../src/substraction';
-import { substraction } from '../src/substractionPembanding';
+import add from '../src/basicMathOperations/addition';
+import { addition } from '../src/basicMathOperations/additionPembanding';
+import div from '../src/basicMathOperations/division';
+import { division } from '../src/basicMathOperations/divisionPembanding';
+import mul from '../src/basicMathOperations/multiplication';
+import { multiplication } from '../src/basicMathOperations/multiplicationPembanding';
+import sub from '../src/basicMathOperations/substraction';
+import { substraction } from '../src/basicMathOperations/substractionPembanding';
 
 // Declare Variable
 let resultAddition;
