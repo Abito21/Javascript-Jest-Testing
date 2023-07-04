@@ -1,5 +1,12 @@
+
 /jest-testing-basic/node_modules
 /jest-testing-basic/package-lock.json
 /jest-testing-basic/npm-debug.log
 /jest-testing-basic/test-report.html
 /jest-testing-basic/jest_html_reporters.json
+
+/jest-testing-data/node_modules
+/jest-testing-data/package-lock.json
+/jest-testing-data/npm-debug.log
+/jest-testing-data/test-report.html
+/jest-testing-data/jest_html_reporters.json
