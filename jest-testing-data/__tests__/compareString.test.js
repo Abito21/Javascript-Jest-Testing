@@ -4,15 +4,15 @@ import * as base from '../common/baseFunction';
 const txtToJson = require("txt-file-to-json");
 
 // Variable Declare
-let stringData;
+let stringDataTarget;
 let stringDataPembanding;
 
 describe('Testing fungsi penambahan', () => {
     beforeAll(async () => {
         // File String Data
-        stringData = txtToJson({ filePath: "./data/compareString.txt" });
-        stringData = base.addCombinedKey(stringData);
-        console.log(stringData);
+        stringDataTarget = txtToJson({ filePath: "./data/compareString.txt" });
+        stringDataTarget = base.addCombinedKey(stringDataTarget);
+        console.log(stringDataTarget);
 
         // Comparison File String Data 
         stringDataPembanding = txtToJson({ filePath: "./data/compareStringPembanding.txt" });
@@ -20,6 +20,6 @@ describe('Testing fungsi penambahan', () => {
         console.log(stringDataPembanding);
     });
     test('Testing detail data compareString ', async () => {
-        base.compareValue(stringData, stringDataPembanding, column.targetTestColumn);
+        base.compareValue(stringDataTarget, stringDataPembanding, column.targetTestColumn);
     });
 });
