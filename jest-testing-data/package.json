@@ -36,6 +36,7 @@
     "csvtojson": "^2.0.10",
     "dataframe-js": "^1.4.4",
     "fs": "^0.0.1-security",
+    "json-2-csv": "^4.0.0",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.43",
     "numeral": "^2.0.6",
