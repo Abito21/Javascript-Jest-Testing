@@ -4,7 +4,7 @@
   "description": "Testing data (business intelligence) to compare string type.",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./__tests__/compareString.test.js --config ./jest.config.js --forceExit"
+    "test": "jest ./__tests__/example.test.js --config ./jest.config.js --forceExit"
   },
   "keywords": [
     "testing",
