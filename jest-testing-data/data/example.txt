@@ -1,0 +1,4 @@
+FIRST_NAME     LAST_NAME        NUMBER               EMAIL                        PROVINCE
+Abid           Indraswara       09788uXXXX           abidab@gmail.com             Central Java
+Juliant        Juli             null                 julijuli@gmail.com           Jogjakarta
+Indraswara     Swara            877989XXXX           null                         DKI Jakarta
